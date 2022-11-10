@@ -1,0 +1,163 @@
+/* Global Styles
+-------------------------------------------------- */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: burlywood;
+    font-weight: bolder;
+}
+
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.divider > section{
+    border-bottom: 5px dashed rgb(0, 0, 0);
+    padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+    border-bottom: none;
+}
+
+/* Nav, Header, Footer
+-------------------------------------------------- */
+nav{
+    position: fixed;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color:#102E4A;
+    color: white;
+    width: fit-content;
+}
+
+header{
+    color: white;
+    background-color: #102E4A;
+}
+
+header, footer {
+    text-align: center;
+}
+
+footer {
+    background: #102E4A;
+    color: white;
+}
+
+/* Projects
+-------------------------------------------------- */
+.projects {
+    background: #55C1FF;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.projects a {
+    color: #F7FFF7;
+    background: #102E4A;
+    text-decoration: none;
+    padding: 8px;
+    margin-top: -30px;
+    float: right;
+}
+
+/* Work Experience
+-------------------------------------------------- */
+.work-experience {
+    background:#F7FFF7;
+}
+
+.item-details h3 ~ p {
+    margin: 0;
+}
+
+/* Education
+-------------------------------------------------- */
+.education {
+    background-image: url(../img/beach.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 10px;
+}
+
+.education p {
+    width: 100%;
+}
+
+/* Contact Info
+-------------------------------------------------- */
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
+
+/* @media screen and (min-width:750px) {
+
+} */
+/* 
+@media screen and (max-width: 749px) {
+    h1 {
+        font-size: 75px;
+        line-height: 0.9;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        line-height: 1;
+    }
+
+    .contact-list a {
+        padding: 5px;
+    }
+} */
